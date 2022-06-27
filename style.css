@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Calibri";
+}
+
+.container{
+    max-width: 1586px;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: "Arial";
+    font-size: 32px;
+    font-style: italic;
+}
+
+html{
+    min-width: 1856px;
+    max-width: 1856px;
+    min-height: 2624px;
+    max-height: 2624px;
+}
+
+header{
+    background: rgb(53, 60, 172);
+    padding: 50px 0;
+}
+
+.header-wrapper{
+    display: flex;
+    gap: 50px;
+}
+.header-wrapper img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 10%;
+    border-radius: 50%;
+}
+.header-info{
+    display: flex;
+    flex-direction: column;
+}
+.header-info .name{
+    font-family: "Arial";
+    font-size: 72px;
+    font-style: oblique;
+    color: white;
+    font-weight: 700;
+}
+
+.header-info .job{
+    font-family: "Arial";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    font-style: italic;
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+
+nav{
+    display: flex;
+    gap: 150px;
+    padding: 20px 0;
+    border-bottom: 3px solid rgb(242, 242, 242);
+}
+
+nav .link{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(108, 108, 108);
+}
+
+nav .link img{
+    width: 20px;
+    height: 20px;
+}
+
+.skill .rating{
+    display: flex;
+}
+
+.main-wrapper{
+    display: flex;
+}
+
+.main-info{
+    flex: 8;
+    border-right: 3px solid rgb(242, 242, 242);
+}
+
+.main-details{
+    flex: 3;
+    padding-left: 40px;
+}
+
+article{
+    padding-top: 20px;
+}
+
+article .description p{
+    padding-bottom: 20px;
+}
+
+.skill .rating span{
+    transform: skewX(-40deg);
+    background: rgb(53, 60, 172);
+    opacity: 0.1;
+    width: 40px;
+    height: 10px;
+    margin: 0 4px;
+    display: block;
+}
+
+small{
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(196, 196, 196);
+}
+
+.field{
+    padding-top: 20px;
+}
+
+.main-info p, .main-info li{
+    font-size: 20px;
+}
+
+.main-info li{
+    margin-left: 30px;
+}
+.main-info ol{
+    padding-bottom: 20px;
+}
+
+.employment small{
+    display: block;
+    padding: 10px 0;
+}
+
+.employment .position{
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.main-details article{
+    padding-top: 30px;
+}
+
+.education small{
+    padding: 10px 0;
+    display: block;
+}
+
+.education p{
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.skill .title{
+    font-size: 24px;
+    padding: 15px 0 10px;
+    display: block;
+}
+
+.field{
+    font-size: 24px;
+}
+
+.skill .rating span.active{
+    opacity: 1;
+}
