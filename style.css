@@ -12,7 +12,7 @@
 
 h2{
     font-family: "Arial";
-    font-size: 32px;
+    font-size: 42px;
     font-style: italic;
 }
 
@@ -63,7 +63,7 @@ header{
 
 nav{
     display: flex;
-    gap: 150px;
+    gap: 100px;
     padding: 20px 0;
     border-bottom: 3px solid rgb(242, 242, 242);
 }
@@ -73,6 +73,7 @@ nav .link{
     gap: 10px;
     align-items: center;
     color: rgb(108, 108, 108);
+    font-size: 24px;
 }
 
 nav .link img{
@@ -102,6 +103,11 @@ article{
     padding-top: 20px;
 }
 
+article .description{
+    padding-top: 20px;
+    padding-right: 150px;
+}
+
 article .description p{
     padding-bottom: 20px;
 }
@@ -117,7 +123,7 @@ article .description p{
 }
 
 small{
-    font-size: 18px;
+    font-size: 24px;
     font-style: italic;
     color: rgb(196, 196, 196);
 }
@@ -125,9 +131,12 @@ small{
 .field{
     padding-top: 20px;
 }
+.field p{
+    font-size: 32px;
+}
 
 .main-info p, .main-info li{
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .main-info li{
@@ -143,7 +152,7 @@ small{
 }
 
 .employment .position{
-    font-size: 24px;
+    font-size: 32px;
     padding-top: 10px;
 }
 
@@ -158,11 +167,11 @@ small{
 
 .education p{
     padding-top: 10px;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .skill .title{
-    font-size: 24px;
+    font-size: 32px;
     padding: 15px 0 10px;
     display: block;
 }
